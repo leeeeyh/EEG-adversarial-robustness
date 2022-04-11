@@ -1,4 +1,4 @@
-Code will be uploaded untill the paper is accepted.
+Code will be uploaded upon acceptance of this work.
 
 # Supplementary materials
 ### DeepCNN
