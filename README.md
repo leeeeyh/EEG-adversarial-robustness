@@ -1,4 +1,4 @@
-Code for IEEE MLSP2022 "Adversarial Training for the Adversarial Robustness of EEG-based Brain-Computer Interfaces"
+Code for IEEE MLSP 2022 "Adversarial Training for the Adversarial Robustness of EEG-based Brain-Computer Interfaces"
 
 # Supplementary materials
 
