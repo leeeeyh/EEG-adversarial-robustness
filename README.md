@@ -1,4 +1,4 @@
-Code for LEEE MLSP2022 "Adversarial Training for the Adversarial Robustness of EEG-based Brain-Computer Interfaces"
+Code for IEEE MLSP2022 "Adversarial Training for the Adversarial Robustness of EEG-based Brain-Computer Interfaces"
 
 # Supplementary materials
 
@@ -17,5 +17,6 @@ Code for LEEE MLSP2022 "Adversarial Training for the Adversarial Robustness of E
 <div align=center>Accuracy of ShallowCNN on UFGSM, TLM-UAP, and SAP examples generated to fool undefended models, and models trained with HBaR, TRADES, MART, PGD, and PGD with HBaR on MI, P300, and ERN (from left to right).</div>
 
 # Citing this work
+If you use this code in your work, please cite the accompanying paper:
 
 # Requirements
