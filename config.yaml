@@ -1,0 +1,118 @@
+bci42a:
+  n_sub : 9
+  eps_list : [0.0001, 0.0003, 0.0005, 0.0007, 0.0012, 0.0017, 0.0022, 0.003]
+  epsilon : 0.0031
+  step_size : 0.0003
+  beta:
+    e:
+      mart: 1.
+      trades: 5.
+      hbar_pgd:
+              sigma: 0.
+              lambda_x: 0.01
+              lambda_y: 30
+      hbar:
+              sigma: 0.
+              lambda_x: 0.01
+              lambda_y: 30
+    s:
+      mart: 6.
+      trades: 2.
+      hbar_pgd:
+              sigma: 0.
+              lambda_x: 0.01
+              lambda_y: 30
+      hbar:
+              sigma: 0.
+              lambda_x: 0.01
+              lambda_y: 30
+    d:
+      mart: 4.
+      trades: 4.
+      hbar_pgd:
+              sigma: 0.
+              lambda_x: 0.01
+              lambda_y: 30
+      hbar:
+              sigma: 0.
+              lambda_x: 0.01
+              lambda_y: 30
+
+p300:
+  n_sub : 9
+  eps_list : [0.01, 0.03, 0.05, 0.07, 0.09, 0.11, 0.13, 0.15]
+  epsilon : 0.15
+  step_size : 0.015
+  beta:
+    e:
+      mart: 4.
+      trades: 3.
+      hbar_pgd:
+              sigma: 0.
+              lambda_x: 0.01
+              lambda_y: 0.05
+      hbar:
+              sigma: 0.
+              lambda_x: 0.1
+              lambda_y: 5
+    s:
+      mart: 4.
+      trades: 6.
+      hbar_pgd:
+              sigma: 0.
+              lambda_x: 0.01
+              lambda_y: 0.05
+      hbar:
+              sigma: 0.
+              lambda_x: 0.1
+              lambda_y: 5
+    d:
+      mart: 4.
+      trades: 4.
+      hbar_pgd:
+              sigma: 0.
+              lambda_x: 0.01
+              lambda_y: 0.05
+      hbar:
+              sigma: 0.
+              lambda_x: 5
+              lambda_y: 10
+ern:
+  n_sub : 16
+  eps_list : [0.005, 0.01, 0.02, 0.03, 0.04, 0.05, 0.06]
+  epsilon : 0.0601
+  step_size : 0.006
+  beta:
+    e:
+      mart: 1.
+      trades: 4.
+      hbar_pgd:
+              sigma: 0.
+              lambda_x: 0.01
+              lambda_y: 0.05
+      hbar:
+              sigma: 0.
+              lambda_x: 1
+              lambda_y: 30
+    s:
+      mart: 9.
+      trades: 1.
+      hbar_pgd:
+              sigma: 0.
+              lambda_x: 0.01
+              lambda_y: 0.05
+      hbar:
+              sigma: 0.
+              lambda_x: 0.1
+              lambda_y: 5
+    d:
+      mart: 4.
+      trades: 4.
+      hbar_pgd:
+              sigma: 0.
+              lambda_x: 0.01
+              lambda_y: 0.05
+      hbar:
+              sigma: 0.
+              lambda_x: 5
+              lambda_y: 10
