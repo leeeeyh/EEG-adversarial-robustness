@@ -22,8 +22,10 @@ If you use this code in your work, please cite the accompanying paper:
 @inproceedings{Li2022Adversarial,
     title={Adversarial Training for the Adversarial Robustness of EEG-based Brain-Computer Interfaces},
     author={Yunhuan Li and Shujian Yu and Xi Yu and Badong Chen},
-    booktitle={IEEE MLSP},
-    year={2022}
+    booktitle={2022 IEEE 32nd International Workshop on Machine Learning for Signal Processing (MLSP)},
+    pages={1--6},
+    year={2022},
+    organization={IEEE}
 }
 ```
 # Requirements
