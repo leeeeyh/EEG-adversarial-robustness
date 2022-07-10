@@ -357,15 +357,15 @@ def main(args):
                         total_acc[eps_idx+offset, fold] = acc
                         tqdm.write(f"Test_sap[{fold+1:>d}/{n_splits:>d}]: acc: {(100*acc):>4.1f}%, eps: {eps:>.5f}")
               
-                ave_acc = np.mean(total_acc, axis=1)
-                tqdm.write(f"round:{r_idx+1:>d}/{n_repeats:>d},the acc is:{ave_acc}, avg:{np.mean(ave_acc[:len(eps_list)+1])}") 
+            ave_acc = np.mean(total_acc, axis=1)
+            tqdm.write(f"round:{r_idx+1:>d}/{n_repeats:>d},the acc is:{ave_acc}, avg:{np.mean(ave_acc[:len(eps_list)+1])}") 
 
-                total_result[s_idx, :, r_idx] = ave_acc
-        
-            tqdm.write(f"Average results of {n_repeats} times, the acc is: {np.mean(total_result[s_idx], axis=1)}, avg:{np.mean(np.mean(total_result[s_idx], axis=1)[:len(eps_list)+1])}")
-            savemat(result_save_path,{'subjects':subjects, 'lr':learning_rate,'df_method':str(df_method),
-                'beta':betas,'epsilon':eps_list,'acc':total_result, 'data_type':data_type, 'model_type':model_type})
-            tqdm.write('Subject'+str(test_subject)+' result has been saved.')
+            total_result[s_idx, :, r_idx] = ave_acc
+    
+        tqdm.write(f"Average results of {n_repeats} times, the acc is: {np.mean(total_result[s_idx], axis=1)}, avg:{np.mean(np.mean(total_result[s_idx], axis=1)[:len(eps_list)+1])}")
+        savemat(result_save_path,{'subjects':subjects, 'lr':learning_rate,'df_method':str(df_method),
+            'beta':betas,'epsilon':eps_list,'acc':total_result, 'data_type':data_type, 'model_type':model_type})
+        tqdm.write('Subject'+str(test_subject)+' result has been saved.')
         sub_bar.update()
 
 if __name__ == "__main__":
