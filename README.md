@@ -19,13 +19,13 @@ Code for IEEE MLSP 2022 "Adversarial Training for the Adversarial Robustness of 
 # Citing this work
 If you use this code in your work, please cite the accompanying paper:
 ```
-@inproceedings{Li2022Adversarial,
-    title={Adversarial Training for the Adversarial Robustness of EEG-based Brain-Computer Interfaces},
-    author={Yunhuan Li and Xi Yu and Shujian Yu and Badong Chen},
-    booktitle={2022 IEEE 32nd International Workshop on Machine Learning for Signal Processing (MLSP)},
-    pages={1--6},
-    year={2022},
-    organization={IEEE}
+@inproceedings{li2022adversarial,
+  title={Adversarial Training for the Adversarial Robustness of EEG-Based Brain-Computer Interfaces},
+  author={Li, Yunhuan and Yu, Xi and Yu, Shujian and Chen, Badong},
+  booktitle={2022 IEEE 32nd International Workshop on Machine Learning for Signal Processing (MLSP)},
+  pages={1--6},
+  year={2022},
+  organization={IEEE}
 }
 ```
 # Requirements
